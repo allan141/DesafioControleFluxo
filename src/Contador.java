@@ -28,10 +28,9 @@ public static void main(String[] args) {
 
 static void contar(int parametroUm, int parametroDois) {
     int cont = 0;
-    System.out.println("Contando a diferença: ");
     for (int p2 = parametroDois; p2 > parametroUm; p2--) {
         cont = cont + 1;
-        System.out.println(cont);
+        System.out.println("Imprimindo o número " + cont);
     }
 }
 }
